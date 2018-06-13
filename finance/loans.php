@@ -7,9 +7,23 @@
             <div class="page-wrapper">
                 <div class="content container-fluid">
 					<div class="row">
-						<div class="col-xs-8">
+						<div class="col-xs-4">
 							<h4 class="page-title">Pikash Loans</h4>
 						</div>
+
+            <div class="col-xs-4 text-right m-b-30">
+              <div class="dash-widget-info" style="color:green;">
+                  <h3>KSH. 452,120</h3>
+                  <span>Loans Taken</span>
+                </div>
+						</div>
+
+            <div class="col-xs-4 text-right m-b-30">
+              <div class="dash-widget-info" style="color:red;">
+                  <h3>KSH. 125,500</h3>
+                  <span>Unpaid Loans</span>
+                </div>
+            </div>
 
 					</div>
 					<div class="row filter-row">

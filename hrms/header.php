@@ -181,7 +181,15 @@
 								</ul>
 							</li>
 
-							<li>
+              <li>
+								<a href="clients.php">Clients</a>
+							</li>
+
+              <li>
+								<a href="projects.php">Projects</a>
+							</li>
+
+              <li>
 								<a href="events.php">Events</a>
 							</li>
 

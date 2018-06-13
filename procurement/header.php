@@ -171,8 +171,8 @@
 							</li>
 
               <li><a href="leaves.php">
-
-                <span>Leave Requests</span></a></li>
+                <span>Leave Requests</span></a>
+              </li>
 
 							<li>
 								<a href="events.php">Events</a>
@@ -181,6 +181,10 @@
               <li>
 								<a href="request-orders.php">Request Orders</a>
 							</li>
+
+              <li>
+                <a href="#" data-toggle="modal" data-target="#petty_cash">Request Petty Cash</a>
+              </li>
 
               <li>
 								<a href="invoices.php">Invoices</a>
@@ -201,3 +205,35 @@
         </div>
 
             <!----END OF SIDEBAR AREA--->
+
+            <!--- REQUEST PETTY CASH MODAL---->
+
+                  <div id="petty_cash" class="modal custom-modal fade" role="dialog">
+                    <div class="modal-dialog">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <div class="modal-content modal-md">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Request For Petty Cash</h4>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#" method="post">
+                            <div class="form-group">
+                              <label>Amount <span class="text-danger">*</span></label>
+                              <input class="form-control" required="" name="cash" type="text">
+                            </div>
+
+                            <div class="form-group">
+                              <label>Reason <span class="text-danger">*</span></label>
+                              <textarea class="form-control" name="reason"></textarea>
+                            </div>
+
+                            <div class="m-t-20 text-center">
+                              <button class="btn btn-primary" type="submit" name="request">Request</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <!--- REQUEST PETTY CASH MODAL---->

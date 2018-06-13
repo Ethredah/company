@@ -88,7 +88,7 @@
 									<tbody>
 										<tr>
 											<td>1</td>
-											<td><a href="profile.php">Wilmer Deluna</a></td>
+											<td><a >Wilmer Deluna</a></td>
 											<td>wilmerdeluna@example.com</td>
 											<td>9876543210</td>
 											<td>
@@ -115,7 +115,7 @@
 
                     <tr>
 											<td>2</td>
-											<td><a href="profile.php">James Ogeto</a></td>
+											<td><a>James Ogeto</a></td>
 											<td>saleman2@example.com</td>
 											<td>9844443210</td>
 											<td>
@@ -141,7 +141,7 @@
 
                     <tr>
 											<td>3</td>
-											<td><a href="profile.php">Anne Waithera</a></td>
+											<td><a>Anne Waithera</a></td>
 											<td>ann@example.com</td>
 											<td>9876543210</td>
 											<td>
@@ -171,7 +171,7 @@
 							</div>
 						</div>
 					</div>
-                </div>
+          </div>
 
                 <?php
                   include('footer.php');

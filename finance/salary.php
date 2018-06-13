@@ -88,8 +88,8 @@
 
 										<tr>
 											<td>
-												<a href="profile.php" class="avatar">E<?//substr($row["fname"],0,1).?></a>
-												<h2><a href="profile.php">Ethredah Chao <span>Web Developer</span></a></h2>
+												<a href="employee-salary.php" class="avatar">E<?//substr($row["fname"],0,1).?></a>
+												<h2><a href="employee-salary.php">Ethredah Chao <span>Web Developer</span></a></h2>
 											</td>
 											<td>POR#200167</td>
 											<td>ethredah@gmail.com</td>

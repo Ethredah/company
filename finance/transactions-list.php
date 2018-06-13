@@ -7,13 +7,29 @@
             <div class="page-wrapper">
                 <div class="content container-fluid">
 					<div class="row">
-						<div class="col-xs-4">
-							<h4 class="page-title">Transactions</h4>
+            <div class="col-xs-3">
+							<div class="dash-widget clearfix card-box">
+							       <h3>40,000</h3>
+									<span>Transactions</span>
+							</div>
 						</div>
-						<div class="col-xs-8 text-right m-b-30">
+            <div class="col-xs-3">
+              <div class="dash-widget clearfix card-box" style="color:green;">
+                     <h3>43,300</h3>
+                  <span>USD</span>
+              </div>
+            </div>
+            <div class="col-xs-3">
+							<div class="dash-widget clearfix card-box" style="color:brown;">
+							       <h3>44,340,020</h3>
+									<span>Kenya Shillings</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 text-right m-b-30">
 							<div class="view-icons">
-								<a href="transactions.php" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
-								<a href="transactions-list.php" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
+								<a href="transactions.php" class="grid-view btn btn-link"><i class="material-icons" title="Home">home</i></a>
+								<a href="transactions-list.php" class="list-view btn btn-link active"><i class="material-icons" title="apps">apps</i></a>
 							</div>
 						</div>
 					</div>

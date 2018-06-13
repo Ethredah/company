@@ -1,19 +1,19 @@
 
 
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
-        <title>Admin - Marketing</title>
+        <title>Admin - Partnerships</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="../assets/plugins/morris/morris.css">
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="../assets/css/dataTables.bootstrap.min.css">
 
@@ -39,7 +39,7 @@
 					</a>
                 </div>
                 <div class="page-title-box pull-left">
-					<h3><b>Poraeh Investments | Marketing Department</b> </h3>
+					<h3><b>Poraeh Investments | Partnerships Department</b> </h3>
                 </div>
 				<a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
 				<ul class="nav navbar-nav navbar-right user-menu pull-right">
@@ -116,20 +116,25 @@
 						</div>
 					</li>
 
-					<li class="dropdown">
-						<a href="profile.php" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin">
-							<span class="user-img"><img class="img-circle" src="../assets/img/user.jpg" width="40" alt="Admin">
-							<span class="status online"></span></span>
-							<span>Agness Kioko</span>
-							<i class="caret"></i>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="profile.php">My Profile</a></li>
-							<li><a href="edit-profile.php">Edit Profile</a></li>
-							<li><a href="settings.php">Settings</a></li>
-							<li><a href="logout.php">Logout</a></li>
-						</ul>
-					</li>
+          <li class="dropdown">
+
+
+            <a href="profile.php" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin">
+
+              <span class="user-img"><img class="img-circle" src="../assets/img/user.jpg" width="40" alt="">
+              <span class="status online"></span></span>
+              <span>
+              Juliet Muthoni
+              </span>
+              <i class="caret"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="profile.php">My Profile</a></li>
+              <li><a href="edit-profile.php">Edit Profile</a></li>
+              <li><a href="settings.php">Settings</a></li>
+              <li><a href="logout.php">Logout</a></li>
+            </ul>
+          </li>
 				</ul>
 				<div class="dropdown mobile-user-menu pull-right">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
@@ -140,6 +145,7 @@
 						<li><a href="logout.php">Logout</a></li>
 					</ul>
 				</div>
+
       </div>
 
         <!----END OF HEADER AREA--->
@@ -153,47 +159,39 @@
 							<li class="active">
 								<a href="index.php">Dashboard</a>
 							</li>
+
+              <li>
+								<a href="partnerships.php">Partnerships</a>
+							</li>
+
 							<li class="submenu">
-								<a href="#" class="noti-dot"><span> Finances</span> <span class="menu-arrow"></span></a>
+								<a href="#"><span> Payroll </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
-									<li><a href="transactions.php">Transactions</a></li>
-                  <li><a href="profits.php">Earnings / Profits</a></li>
-
+									<li><a href="salary.php"> My Salary </a></li>
+                  <li><a href="bonuses.php"> Bonuses </a></li>
+                  <li><a href="commission.php"> Commissions </a></li>
 								</ul>
 							</li>
 
-              <li class="submenu">
-								<a href="#"><span></span>Pikash <span class="menu-arrow"></span></a>
-								<ul class="list-unstyled" style="display: none;">
-									<li><a href="agents.php">Agents</a></li>
-                  <li><a href="super-agents.php">Super-Agents</a></li>
-								  <li><a href="merchants.php">Merchants</a></li>
-                  <li><a href="users.php">Users</a></li>
-								</ul>
-							</li>
-
-
-							<li>
-								<a href="sales.php">Sales</a>
-							</li>
-
+              <li><a href="leaves.php">
+                <span>Leave Requests</span></a>
+              </li>
 
 							<li>
 								<a href="events.php">Events</a>
 							</li>
+
+              <li>
+								<a href="request-orders.php"></a>
+							</li>
+
               <li>
 								<a href="invoices.php">Invoices</a>
 							</li>
-              <li>
-								<a href="request-orders.php">Request Orders</a>
-							</li>
 
-              <li>
-                <a href="#" data-toggle="modal" data-target="#petty_cash">Request Petty Cash</a>
-              </li>
 
 							<li>
-								<a href="activities.php">Activities</a>
+								<a href="tasks.php">Tasks</a>
 							</li>
 
               <hr>
@@ -206,39 +204,4 @@
         </div>
         </div>
 
-
-
             <!----END OF SIDEBAR AREA--->
-
-
-            <!--- REQUEST PETTY CASH MODAL---->
-
-                  <div id="petty_cash" class="modal custom-modal fade" role="dialog">
-                    <div class="modal-dialog">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <div class="modal-content modal-md">
-                        <div class="modal-header">
-                          <h4 class="modal-title">Request For Petty Cash</h4>
-                        </div>
-                        <div class="modal-body">
-                          <form action="#" method="post">
-                            <div class="form-group">
-                              <label>Amount <span class="text-danger">*</span></label>
-                              <input class="form-control" required="" name="cash" type="text">
-                            </div>
-
-                            <div class="form-group">
-                              <label>Reason <span class="text-danger">*</span></label>
-                              <textarea class="form-control" name="reason"></textarea>
-                            </div>
-
-                            <div class="m-t-20 text-center">
-                              <button class="btn btn-primary" type="submit" name="request">Request</button>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                <!--- REQUEST PETTY CASH MODAL---->

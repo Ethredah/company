@@ -16,8 +16,8 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-cubes" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
-									<h3>75</h3>
-									<span>Items Procured</span>
+									<h3>5</h3>
+									<span>Partnerships</span>
 								</div>
 							</div>
 						</div>
@@ -26,9 +26,9 @@
 								<span class="dash-widget-icon"><i class="fa fa-usd" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
 									<h3>
-                    16
+                    3
                   </h3>
-									<span>Request Orders</span>
+									<span>Ongoing Negotiations</span>
 								</div>
 							</div>
 						</div>
@@ -37,7 +37,7 @@
 								<span class="dash-widget-icon"><i class="fa fa-diamond"></i></span>
 								<div class="dash-widget-info">
 									<h3>9</h3>
-									<span>Invoices</span>
+									<span>New Closed Deals</span>
 								</div>
 							</div>
 						</div>
@@ -57,18 +57,16 @@
 					<div class="row">
 
             <div class="col-sm-6 text-center">
-              <h5 style="float:left;">My Perfomance</h5>
+              <h5 style="float:left;"></h5>
               <div class="card-box">
-                <div id="area-chart" ></div>
+                <div id="area-chart"></div>
               </div>
             </div>
 
             <div class="col-md-6">
 							<div class="panel panel-table">
 								<div class="panel-heading">
-									<h3 class="panel-title">My Tasks (
-                  11
-                    )</h3>
+									<h3 class="panel-title">Partners</h3>
 								</div>
 								<div class="panel-body">
 									<div class="table-responsive">
@@ -76,7 +74,7 @@
 											<thead>
 												<tr>
 													<th class="col-md-4">Name </th>
-													<th class="col-md-4">Progress</th>
+													<th class="col-md-4">Sales Progress</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -84,16 +82,14 @@
 
 												<tr>
 													<td>
-														<h2><a href="tasks.php">something to do</a></h2>
 														<small class="block text-ellipsis">
-															<span class="action-circle large"><i class="material-icons">person</i></span> <span class="text-muted"> </span>
-															<span class="text-xs"></span> <span class="text-muted">ethredah@gmail.com</span>
+															<span class="action-circle large"><i class="material-icons">person</i></span><span class="text-muted"> Kenya Commercial Bank</span>
 														</small>
 													</td>
 													<td>
-														<div class="progress progress-xs progress-striped">
-															<div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="65%" style="width: 65%"></div>
-														</div>
+                            <div class="progress progress-xs progress-striped">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" data-toggle="tooltip" title="75%" style="width: 75%"></div>
+                            </div>
 													</td>
 
 												</tr>
@@ -105,7 +101,7 @@
 									</div>
 								</div>
 								<div class="panel-footer">
-									<a href="tasks.php" class="text-primary">View all tasks</a>
+									<a href="partnerships.php" class="text-primary">View all Partners</a>
 								</div>
 							</div>
 						</div>

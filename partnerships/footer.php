@@ -13,22 +13,27 @@
 <script type="text/javascript" src="../assets/plugins/morris/morris.min.js"></script>
 <script type="text/javascript" src="../assets/plugins/raphael/raphael-min.js"></script>
 <script type="text/javascript" src="../assets/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="../assets/js/moment.min.js"></script>
 <script type="text/javascript" src="../assets/js/select2.min.js"></script>
 <script type="text/javascript" src="../assets/js/app.js"></script>
 
-<script type="text/javascript" src="../assets/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="../assets/js/dataTables.bootstrap.min.js"></script>
-
-<script type="text/javascript" src="../assets/js/task.js"></script>
 
 <script type="text/javascript" src="../assets/js/fullcalendar.min.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.fullcalendar.js"></script>
 
+<script type="text/javascript" src="../assets/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../assets/js/dataTables.bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../assets/js/fullcalendar.min.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.fullcalendar.js"></script>
+
+<script type="text/javascript" src="../assets/js/task.js"></script>
+
 
 <script type="text/javascript" src="../assets/js/select2.min.js"></script>
 <script type="text/javascript" src="../assets/js/moment.min.js"></script>
-
-
+<script type="text/javascript" src="../assets/js/bootstrap-datetimepicker.min.js"></script>
 
 <script>
 var data = [

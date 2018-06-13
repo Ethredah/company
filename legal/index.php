@@ -16,8 +16,8 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-cubes" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
-									<h3>75</h3>
-									<span>Items Procured</span>
+									<h3>4</h3>
+									<span>Documents</span>
 								</div>
 							</div>
 						</div>
@@ -26,9 +26,9 @@
 								<span class="dash-widget-icon"><i class="fa fa-usd" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
 									<h3>
-                    16
+                    23
                   </h3>
-									<span>Request Orders</span>
+									<span>Contracts</span>
 								</div>
 							</div>
 						</div>
@@ -36,8 +36,8 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-diamond"></i></span>
 								<div class="dash-widget-info">
-									<h3>9</h3>
-									<span>Invoices</span>
+									<h3>4</h3>
+									<span>Complaints</span>
 								</div>
 							</div>
 						</div>
@@ -45,8 +45,8 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
-									<h3>$12,750</h3>
-									<span>Total Costs</span>
+									<h3>18</h3>
+									<span>Policies</span>
 								</div>
 							</div>
 						</div>
@@ -57,7 +57,7 @@
 					<div class="row">
 
             <div class="col-sm-6 text-center">
-              <h5 style="float:left;">My Perfomance</h5>
+              <h5 style="float:left;">captionontracts</h5>
               <div class="card-box">
                 <div id="area-chart" ></div>
               </div>
@@ -66,7 +66,7 @@
             <div class="col-md-6">
 							<div class="panel panel-table">
 								<div class="panel-heading">
-									<h3 class="panel-title">My Tasks (
+									<h3 class="panel-title">New Documents (
                   11
                     )</h3>
 								</div>

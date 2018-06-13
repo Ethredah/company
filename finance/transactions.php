@@ -12,8 +12,8 @@
 						</div>
 						<div class="col-xs-8 text-right m-b-20">
 						<div class="view-icons">
-								<a href="transactions.php" class="grid-view btn btn-link active"><i class="fa fa-th"></i></a>
-								<a href="transactions-list.php" class="list-view btn btn-link"><i class="fa fa-bars"></i></a>
+              <a href="transactions.php" class="grid-view btn btn-link"><i class="material-icons" title="Home">home</i></a>
+              <a href="transactions-list.php" class="list-view btn btn-link active"><i class="material-icons" title="list">apps</i></a>
 							</div>
 						</div>
 					</div>

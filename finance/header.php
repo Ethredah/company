@@ -189,11 +189,27 @@
                 <a href="#"><span> Payroll </span> <span class="menu-arrow"></span></a>
                 <ul class="list-unstyled" style="display: none;">
                   <li><a href="salary.php"> Employee Salary </a></li>
-                  <li><a href="salary.php"> Bonuses </a></li>
-                  <li><a href="salary.php"> Commissions </a></li>
+                  <li><a href="bonusses.php"> Bonuses </a></li>
                 </ul>
               </li>
 
+
+
+                <li class="submenu">
+                  <a href="#"><span> Budgets </span> <span class="menu-arrow"></span></a>
+                  <ul class="list-unstyled" style="display: none;">
+              		<li><a href="budgets.php">Company Budgets</a></li>
+                  <li><a href="create-budget.php">Create Annual Budget</a></li>
+                  </ul>
+              	</li>
+
+                <li class="submenu">
+  								<a href="#"><span></span>Cases<span class="menu-arrow"></span></a>
+  								<ul class="list-unstyled" style="display: none;">
+  									<li><a href="disputes.php">Disputed Funds</a></li>
+                    <li><a href="dormant-funds.php">Dormant Funds</a></li>
+  								</ul>
+  							</li>
 
 							<li>
 								<a href="events.php">Events</a>
