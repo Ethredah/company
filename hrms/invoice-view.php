@@ -12,19 +12,19 @@
 						</div>
 						<div class="col-sm-4 text-right m-b-30">
 							<div class="btn-group btn-group-sm">
-								<button class="btn btn-default">CSV</button>
-								<button class="btn btn-default">PDF</button>
-								<button class="btn btn-default"><i class="fa fa-print fa-lg"></i> Print</button>
+								<!-- <button class="btn btn-default">CSV</button> -->
+								<button class="btn btn-default" id="pdf" >PDF</button>
+								<button class="btn btn-default" id="print"><i class="fa fa-print fa-lg"></i> Print</button>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12">
-							<div class="panel">
+							<div class="panel" id="invoice_content">
 								<div class="panel-body">
 									<div class="row">
 										<div class="col-md-6 m-b-20">
-											<img src="../assets/img/logo2.png" class="m-b-20" alt="" style="width: 100px;">
+											<img src="../assets/img/logo2.png" class="m-b-20" style="width: 100px;">
 				 							<ul class="list-unstyled">
 												<li>Poraeh Investments </li>
 												<li>3864 Quiet Valley Lane,</li>
@@ -155,12 +155,59 @@
 											<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus dignissim aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit amet lacinia lorem. Nullam finibus pellentesque libero, eu finibus sapien interdum vel</p>
 										</div>
 									</div>
+
 								</div>
 							</div>
+              <div id="editor"></div>
 						</div>
 					</div>
-                </div>
+        </div>
 
                 <?php
                   include('footer.php');
                 ?>
+
+                <!-- INVOICE SCRIPT -->
+
+                <script>
+                 $(document).ready(function() {
+
+                   // PRINT
+                   function printData()
+                 {
+                   var divToPrint=document.getElementById("invoice_content");
+                    var myStyle = '<link rel="stylesheet" type="text/css" href="../assets/css/style.css">, <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">';
+                    newWin= window.open("");
+                    newWin.document.write(myStyle + divToPrint.outerHTML);
+                    newWin.print();
+                    newWin.close();
+                 }
+
+                 $('#print').on('click',function(){
+                 printData();
+               })
+               });
+                </script>
+
+                <!--- END INVOICE SCRIPT -->
+
+
+                <script>
+                var doc = new jsPDF();
+                var specialElementHandlers = {
+                '#editor': function (element, renderer) {
+                return true;
+                }
+                };
+
+                $(document).ready(function() {
+                $('#pdf').click(function () {
+                doc.fromHTML($('#invoice_content').html(), 15, 15, {
+                'width': 170,
+                'elementHandlers': specialElementHandlers
+                });
+                doc.save('invoice.pdf');
+                });
+                });
+
+                </script>

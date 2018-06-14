@@ -9,15 +9,7 @@
 					<div class="row">
 						<div class="col-xs-4">
 							<h4 class="page-title">Employees</h4>
-              <p><?
-              if (isset($_GET['success'])) {
-                $success = $_GET['success'];
-               echo '<div class="alert alert-success" >
-               <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-               <strong>DONE!! </strong><p> The new employee details have been successfully added.</p>
-               </div>';
-              }
-                ?></p>
+
 						</div>
 
 						<div class="col-xs-8 text-right m-b-30">
@@ -28,39 +20,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="row filter-row">
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">Employee ID</label>
-								<input type="text" class="form-control floating" />
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">Employee Name</label>
-								<input type="text" class="form-control floating" />
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus select-focus">
-								<label class="control-label">Designation</label>
-								<select class="select floating">
-									<option value="">Select Designation</option>
-									<option value="">Web Developer</option>
-									<option value="1">Web Designer</option>
-									<option value="1">Android Developer</option>
-									<option value="1">Ios Developer</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<a href="#" class="btn btn-success btn-block"> Search </a>
-						</div>
-                    </div>
+
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">
-								<table class="table table-striped custom-table datatable">
+								<table class="table table-striped custom-table m-b-0" id="table">
 									<thead>
 										<tr>
 											<th style="width:30%;">Name</th>

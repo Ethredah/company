@@ -71,25 +71,24 @@
 								<div id="myprojects" class="tab-pane fade in active">
 									<div class="row">
 
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                       <div class="card-box project-box">
                         <h4 class="project-title">Company Info</h4>
                         <h5>About</h5>
                         <p>
-                           Aenean tincidunt interdum ipsum, id pellentesque diam suscipit ut. Vivamus massa mi, fermentum eget neque eget, imperdiet tristique lectus. Proin at purus ut
-                           sem pellentesque tempor sit amet ut lectus. Sed orci augue, placerat et pretium ac, hendrerit in felis. Integer scelerisque libero non metus commodo, et hendrerit
+                           Aenean tincidunt interdum ipsum, isem pellentesque tempor sit amet ut lectus. Sed orci augue, placerat et pretium ac, hendrerit in felis. Integer scelerisque libero non metus commodo, et hendrerit
                             diam aliquet. Proin tincidunt porttitor ligula, a tincidunt orci pellentesque nec. Ut ultricies maximus nulla id consequat. Fusce eu consequat mi, eu euismod ligula.
                              Aliquam porttitor neque id massa porttitor, a pretium velit vehicula. Morbi volutpat tincidunt urna, vel ullamcorper ligula fermentum at.
                         </p>
                       </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                       <div class="card-box project-box">
                         <h4 class="project-title">Client Projects</h4>
                         <br>
                         <div class="table-responsive">
-                          <table class="table table-striped custom-table datatable">
+                          <table class="table table-striped custom-table m-b-0" id="table">
                             <thead>
                               <tr>
                                 <th>Project</th>

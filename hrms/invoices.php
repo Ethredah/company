@@ -17,31 +17,10 @@
 					<div class="row filter-row">
 						<div class="col-sm-3 col-xs-6">
 							<div class="form-group form-focus">
-								<label class="control-label">From</label>
-								<div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
+								<label class="control-label">Search</label>
 							</div>
 						</div>
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">To</label>
-								<div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus select-focus">
-								<label class="control-label">Status</label>
-								<select class="select floating">
-									<option value="">Select Status</option>
-									<option value="">Pending</option>
-									<option value="1">Paid</option>
-									<option value="1">Partially Paid</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<a href="#" class="btn btn-success btn-block"> Search </a>
-						</div>
-                    </div>
+          </div>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">

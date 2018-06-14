@@ -14,50 +14,12 @@
 							<a href="#" class="btn btn-primary rounded pull-right" data-toggle="modal" data-target="#add_leave"><i class="fa fa-plus"></i> Request Leave</a>
 						</div>
 					</div>
-					<div class="row filter-row">
 
-                           <div class="col-sm-3 col-md-2 col-xs-6">
-								<div class="form-group form-focus select-focus">
-									<label class="control-label">Leave Type</label>
-									<select class="select floating">
-										<option value=""> -- Select -- </option>
-										<option value="">Casual Leave</option>
-										<option value="1">Medical Leave</option>
-										<option value="1">Loss of Pay</option>
-									</select>
-								</div>
-                           </div>
-                           <div class="col-sm-3 col-md-2 col-xs-6">
-								<div class="form-group form-focus select-focus">
-									<label class="control-label">Leave Status</label>
-									<select class="select floating">
-										<option value=""> -- Select -- </option>
-										<option value="0"> Pending </option>
-										<option value="1"> Approved </option>
-										<option value="2"> Rejected </option>
-									</select>
-								</div>
-                           </div>
-						   <div class="col-sm-3 col-md-2 col-xs-6">
-								<div class="form-group form-focus">
-									<label class="control-label">From</label>
-									<div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
-								</div>
-							</div>
-						   <div class="col-sm-3 col-md-2 col-xs-6">
-								<div class="form-group form-focus">
-									<label class="control-label">To</label>
-									<div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
-								</div>
-							</div>
-                           <div class="col-sm-3 col-md-2 col-xs-6">
-                                <a href="#" class="btn btn-success btn-block"> Search </a>
-                           </div>
-                    </div>
+
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">
-								<table class="table table-striped custom-table m-b-0 datatable">
+								<table class="table table-striped custom-table m-b-0" id="table">
 									<thead>
 										<tr>
 											<th>Leave Type</th>

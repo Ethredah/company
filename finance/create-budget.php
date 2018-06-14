@@ -30,7 +30,8 @@
 												<thead>
 													<tr>
 														<th class="col-sm-2">Item</th>
-														<th class="col-md-8">Description</th>
+														<th class="col-md-4">Description</th>
+                            <th class="col-md-4">Income</th>
 														<th>Amount</th>
 														<th> <a href="javascript:void(0);" class="add_button" title="Add field"><i class="small material-icons">add</i></a> </th>
 													</tr>
@@ -45,9 +46,11 @@
 													<td>
 														<input class="form-control" type="text" style="min-width:150px" name="description">
 													</td>
-
+                          <td>
+														<input class="form-control" type="text" style="min-width:150px" name="Income">
+													</td>
 													<td>
-														<input class="form-control" style="width:120px" type="text" name="amount">
+														<input class="form-control" style="width:120px" type="text" name="amount" id="ammount">
 													</td>
 													<td></td>
 												</tr>
@@ -64,7 +67,7 @@
 															Grand Total
 														</td>
 														<td style="text-align: right; padding-right: 30px; font-weight: bold; font-size: 16px;width: 230px">
-															$ 0.00
+															<input class="form-control" disabled id="total" value=""/>
 														</td>
 													</tr>
 												</tbody>
@@ -104,8 +107,19 @@
         var maxField = 150; //Input fields increment limitation
         var addButton = $('.add_button'); //Add button selector
         var wrapper = $('.field_wrapper'); //Input field wrapper
-        var fieldHTML = '<tr> <td> <input class="form-control" type="text" style="min-width:150px" name="item" required> </td><td><input class="form-control" type="text" style="min-width:150px" name="description"></td><td><input class="form-control" style="width:120px" type="text" name="amount"></td> <td><a href="javascript:void(0);" class="remove_button" title="Remove"><i class="small material-icons">clear</i></a></td></tr>'; //New input field html
+        var fieldHTML = '<tr> <td> <input class="form-control" type="text" style="min-width:150px" name="item" required> </td><td><input class="form-control" type="text" style="min-width:150px" name="description"><td><input class="form-control" type="text" style="min-width:150px" name="Income"></td></td><td><input class="form-control" style="width:120px" type="text" name="amount"></td> <td><a href="javascript:void(0);" class="remove_button" title="Remove"><i class="small material-icons">clear</i></a></td></tr>'; //New input field html
         var x = 1; //Initial field counter is 1
+
+        // function compute()
+        // {
+        //   var amount = $("#amount").val();
+        //   var total = $("#total").val();
+        //   $("#total").each(function()
+        // {
+        //   total += +amount;
+        // });
+        // return total;
+        // }
 
         //Once add button is clicked
         $(addButton).click(function(){

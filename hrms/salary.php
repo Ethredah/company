@@ -10,69 +10,18 @@
 					<div class="row">
 						<div class="col-xs-4">
 							<h4 class="page-title">Employees Salaries</h4>
-              <p><?
-              if (isset($_GET['success'])) {
-                $success = $_GET['success'];
-               echo '<div class="alert alert-success" >
-               <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-               <strong>DONE!! </strong><p> The Employee Salary details have been successfully added.</p>
-               </div>';
-              }
-                ?></p>
+
 						</div>
 						<div class="col-xs-8 text-right m-b-30">
 							<a href="#" class="btn btn-primary rounded pull-right" data-toggle="modal" data-target="#add_salary"><i class="fa fa-plus"></i> Add Salary</a>
 						</div>
 					</div>
-					<div class="row filter-row">
-					   <div class="col-sm-3 col-md-2 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">Employee Name</label>
-								<input type="text" class="form-control floating" />
-							</div>
-					   </div>
-					   <div class="col-sm-3 col-md-2 col-xs-6">
-							<div class="form-group form-focus select-focus">
-								<label class="control-label">Role</label>
-								<select class="select floating">
-									<option value=""> -- Select -- </option>
-									<option value="">Employee</option>
-									<option value="1">Manager</option>
-								</select>
-							</div>
-					   </div>
-					   <div class="col-sm-3 col-md-2 col-xs-6">
-							<div class="form-group form-focus select-focus">
-								<label class="control-label">Department</label>
-								<select class="select floating">
-									<option value="" selected disabled> -- Select -- </option>
-									<option value=""> Operations </option>
-									<option value=""> Product </option>
-									<option value=""> Marketing </option>
-                  <option value=""> Sales </option>
-								</select>
-							</div>
-					   </div>
-					   <div class="col-sm-3 col-md-2 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">From</label>
-								<div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
-							</div>
-						</div>
-					   <div class="col-sm-3 col-md-2 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">To</label>
-								<div class="cal-icon"><input class="form-control floating datetimepicker" type="text"></div>
-							</div>
-						</div>
-						<div class="col-sm-3 col-md-2 col-xs-6">
-							<a href="#" class="btn btn-success btn-block"> Search </a>
-						</div>
-                    </div>
+
+
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">
-								<table class="table table-striped custom-table datatable">
+								<table class="table table-striped custom-table m-b-0">
 									<thead>
 										<tr>
 											<th style="width:30%;">Employee</th>
@@ -85,41 +34,24 @@
 									</thead>
 									<tbody>
 
-                    <?php
-                    $sql = "SELECT * FROM employees ";
-                    $query = mysqli_query($connection, $sql);
-                    while ($row = mysqli_fetch_assoc($query)) {
-                      $empid = $row["empid"];
 
-                      $sql2 = "SELECT * FROM payroll WHERE empid='$empid'";
-                      $query2 = mysqli_query($connection, $sql2);
-
-                      while ($row2 = mysqli_fetch_assoc($query2)) {
-
-
-
-                      echo '
 
 										<tr>
 											<td>
-												<a href="profile.php?empid='.$row["empid"].'" class="avatar">'.substr($row["fname"],0,1).'</a>
-												<h2><a href="profile.php?empid='.$row["empid"].'">'.$row["fname"]." ".$row["lname"].' <span>'.$row["position"].'</span></a></h2>
+												<a href="profile.php" class="avatar">E</a>
+												<h2><a href="profile.php">Ethredah Chao <span>Web developer</span></a></h2>
 											</td>
-											<td>'.$row["empid"].'</td>
-											<td>'.$row["email"].'</td>
-											<td>'.$row["empdate"].'</td>
+											<td>POR-0002</td>
+											<td>ethredah@gmail.com</td>
+											<td>2017-12-10</td>
 											<td>
-												<a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">'.$row["department"].'
+												<a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Product
                           </a>
 
 											</td>
-											<td>'.$row2["basic"].'</td>
+											<td>120,250</td>
 
-										</tr>'
-
-                    ;}
-                  }
-                  ?>
+										</tr>
 
 									</tbody>
 								</table>

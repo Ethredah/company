@@ -6,44 +6,41 @@
         ?>
 
 
-
-
-
             <div class="page-wrapper">
                 <div class="content container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-lg-3">
 							<div class="dash-widget clearfix card-box">
-								<span class="dash-widget-icon"><i class="fa fa-cubes" aria-hidden="true"></i></span>
+								<span class="dash-widget-icon"><i class="material-icons">assessment</i></span>
 								<div class="dash-widget-info">
-									<h3>4</h3>
+									<h3 class='count'>4</h3>
 									<span>Activities</span>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-lg-3">
 							<div class="dash-widget clearfix card-box">
-								<span class="dash-widget-icon"><i class="fa fa-usd" aria-hidden="true"></i></span>
+								<span class="dash-widget-icon"><i class="material-icons">business_center</i></span>
 								<div class="dash-widget-info">
-									<h3>44</h3>
+									<h3 class='count'>44</h3>
 									<span>Sales</span>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-lg-3">
 							<div class="dash-widget clearfix card-box">
-								<span class="dash-widget-icon"><i class="fa fa-diamond"></i></span>
+								<span class="dash-widget-icon"><i class="material-icons">assignment</i></span>
 								<div class="dash-widget-info">
-									<h3>7</h3>
+									<h3 class='count'>7</h3>
 									<span>Tasks</span>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6 col-lg-3">
 							<div class="dash-widget clearfix card-box">
-								<span class="dash-widget-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+								<span class="dash-widget-icon"><i class="material-icons">people</i></span>
 								<div class="dash-widget-info">
-									<h3>18</h3>
+									<h3 class='count'>18</h3>
 									<span>Employees</span>
 								</div>
 							</div>
@@ -53,7 +50,7 @@
 
 
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-8">
 							<div class="panel panel-table">
 								<div class="panel-heading">
 									<h3 class="panel-title">Invoices</h3>
@@ -71,6 +68,7 @@
 												</tr>
 											</thead>
 											<tbody>
+                        <br>
 												<tr>
 													<td><a href="invoice-view.php">#INV-0001</a></td>
 													<td>
@@ -114,79 +112,17 @@
 							</div>
 						</div>
 
-            <div class="col-md-6">
-							<div class="panel panel-table">
+            <div class="col-md-4">
 								<div class="panel-heading">
-									<h3 class="panel-title">Recent Activities</h3>
+									<h3 class="panel-title">Statistics</h3>
 								</div>
 								<div class="panel-body">
 									<div class="table-responsive">
-										<table class="table table-striped custom-table m-b-0">
-											<thead>
-												<tr>
-													<th class="col-md-3">Activity Name </th>
-													<th class="col-md-3">Progress</th>
-													<th class="text-right col-md-1">Action</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>
-														<h2><a href="project-view.php">Activity 1</a></h2>
-														<small class="block text-ellipsis">
-															<span class="text-xs">1</span> <span class="text-muted">open tasks, </span>
-															<span class="text-xs">9</span> <span class="text-muted">tasks completed</span>
-														</small>
-													</td>
-													<td>
-														<div class="progress progress-xs progress-striped">
-															<div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="65%" style="width: 65%"></div>
-														</div>
-													</td>
-													<td class="text-right">
-														<div class="dropdown">
-															<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-															<ul class="dropdown-menu pull-right">
-																<li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
-																<li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
-															</ul>
-														</div>
-													</td>
-												</tr>
-
-												<tr>
-													<td>
-														<h2><a href="project-view.php">Activity 2</a></h2>
-														<small class="block text-ellipsis">
-															<span class="text-xs">3</span> <span class="text-muted">open tasks, </span>
-															<span class="text-xs">4</span> <span class="text-muted">tasks completed</span>
-														</small>
-													</td>
-													<td>
-														<div class="progress progress-xs progress-striped">
-															<div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="49%" style="width: 49%"></div>
-														</div>
-													</td>
-													<td class="text-right">
-														<div class="dropdown">
-															<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-															<ul class="dropdown-menu pull-right">
-																<li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
-																<li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
-															</ul>
-														</div>
-													</td>
-												</tr>
-
-
-											</tbody>
-										</table>
+                    	<div class="card-box">
+    										<div id="pie-chart" ></div>
+    									</div>
 									</div>
 								</div>
-								<div class="panel-footer">
-									<a href="projects.php" class="text-primary">View all activities</a>
-								</div>
-							</div>
 						</div>
 
 
@@ -206,10 +142,21 @@
 
 					</div>
 
-
-
 				</div>
 
         <?php
           include('footer.php');
         ?>
+
+
+        <script>
+        Morris.Donut({
+          element: 'pie-chart',
+          data: [
+          {label: "Employees", value: 30},
+          {label: "Clients", value: 15},
+          {label: "Projects", value: 45},
+          {label: "Tasks", value: 10}
+          ]
+        });
+        </script>

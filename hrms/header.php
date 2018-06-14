@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" type="text/css" href="../assets/css/fullcalendar.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/print.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-datetimepicker.min.css">
 
         <link rel="stylesheet" type="text/css" href="../assets/css/style.css">

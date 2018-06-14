@@ -18,39 +18,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="row filter-row">
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">Project Name</label>
-								<input type="text" class="form-control floating" />
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">Employee Name</label>
-								<input type="text" class="form-control floating" />
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus select-focus">
-								<label class="control-label">Role</label>
-								<select class="select floating">
-									<option value="">Select Roll</option>
-									<option value="">Web Developer</option>
-									<option value="1">Web Designer</option>
-									<option value="1">Android Developer</option>
-									<option value="1">Ios Developer</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-sm-3 col-xs-6">
-							<a href="#" class="btn btn-success btn-block"> Search </a>
-						</div>
-                    </div>
+
+
+
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">
-								<table class="table table-striped custom-table datatable">
+								<table class="table table-striped custom-table m-b-0">
 									<thead>
 										<tr>
 											<th>Project</th>
