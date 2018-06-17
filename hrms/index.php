@@ -57,7 +57,7 @@
 								</div>
 								<div class="panel-body">
 									<div class="table-responsive">
-										<table class="table table-striped custom-table m-b-0">
+										<table class="table table-striped custom-table m-b-0" id="searchtable">
 											<thead>
 												<tr>
 													<th>Invoice ID</th>

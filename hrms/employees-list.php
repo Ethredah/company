@@ -14,9 +14,9 @@
 
 						<div class="col-xs-8 text-right m-b-30">
 							<a href="new-employee.php" class="btn btn-primary pull-right rounded"><i class="fa fa-plus"></i> Add Employee</a>
-							<div class="view-icons">
-								<a href="employees.php" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
-								<a href="employees-list.php" class="list-view btn btn-link active"><i class="fa fa-bars"></i></a>
+              <div class="view-icons">
+                <a href="employees.php" class="grid-view btn btn-link active"><i class="material-icons" title="Home">home</i></a>
+								<a href="employees-list.php" class="list-view btn btn-link"><i class="material-icons" title="List">apps</i></a>
 							</div>
 						</div>
 					</div>
@@ -24,7 +24,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">
-								<table class="table table-striped custom-table m-b-0" id="table">
+								<table class="table table-striped custom-table m-b-0" id="searchtable">
 									<thead>
 										<tr>
 											<th style="width:30%;">Name</th>

@@ -14,40 +14,11 @@
 						<div class="col-xs-8 text-right m-b-20">
 							<a href="new-employee.php" class="btn btn-primary rounded pull-right" ><i class="fa fa-plus"></i> Add Employee</a>
 							<div class="view-icons">
-								<a href="employees.php" class="grid-view btn btn-link active"><i class="fa fa-th"></i></a>
-								<a href="employees-list.php" class="list-view btn btn-link"><i class="fa fa-bars"></i></a>
+                <a href="employees.php" class="grid-view btn btn-link active"><i class="material-icons" title="Home">home</i></a>
+								<a href="employees-list.php" class="list-view btn btn-link"><i class="material-icons" title="List">apps</i></a>
 							</div>
 						</div>
 					</div>
-					<div class="row filter-row">
-                           <div class="col-sm-3 col-xs-6">
-								<div class="form-group form-focus">
-									<label class="control-label">Employee ID</label>
-									<input type="text" class="form-control floating" />
-								</div>
-                           </div>
-                           <div class="col-sm-3 col-xs-6">
-								<div class="form-group form-focus">
-									<label class="control-label">Employee Name</label>
-									<input type="text" class="form-control floating" />
-								</div>
-                           </div>
-                           <div class="col-sm-3 col-xs-6">
-								<div class="form-group form-focus select-focus">
-									<label class="control-label">Department</label>
-									<select class="select floating">
-										<option value="">Select Department</option>
-										<option value="">Marketing</option>
-										<option value="">Operations</option>
-										<option value="">Product</option>
-										<option value="">Business</option>
-									</select>
-								</div>
-                           </div>
-                           <div class="col-sm-3 col-xs-6">
-                                <a href="#" class="btn btn-success btn-block"> Search </a>
-                           </div>
-                    </div>
 
 
 					<div class="row staff-grid-row">

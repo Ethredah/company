@@ -38,7 +38,7 @@
 
 <script>
 $(document).ready( function () {
-    $('table').DataTable();
+    $('#searchtable').DataTable();
 } );
 </script>
 <script>$('.count').countid();</script>

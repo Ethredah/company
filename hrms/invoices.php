@@ -14,17 +14,11 @@
 							<a href="create-invoice.php" class="btn btn-primary rounded"><i class="fa fa-plus"></i> Create New Invoice</a>
 						</div>
 					</div>
-					<div class="row filter-row">
-						<div class="col-sm-3 col-xs-6">
-							<div class="form-group form-focus">
-								<label class="control-label">Search</label>
-							</div>
-						</div>
-          </div>
+					
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">
-								<table class="table table-striped custom-table m-b-0">
+								<table class="table table-striped custom-table m-b-0" id="searchtable">
 									<thead>
 										<tr>
 											<th>#</th>

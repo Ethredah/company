@@ -21,7 +21,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">
-								<table class="table table-striped custom-table m-b-0">
+								<table class="table table-striped custom-table m-b-0" id="searchtable">
 									<thead>
 										<tr>
 											<th style="width:30%;">Employee</th>
