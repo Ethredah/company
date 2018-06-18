@@ -72,10 +72,10 @@
 														<th style="width:100px;">Unit Cost</th>
 														<th style="width:80px;">Qty</th>
 														<th>Amount</th>
-														<th> <a href="javascript:void(0);" class="add_button" title="Add field"><i class="small material-icons">add</i></a> </th>
+														<th> </th>
 													</tr>
 												</thead>
-												<tbody class="field_wrapper">
+												<tbody>
 												<tr>
 													<td>
 														<input class="form-control" type="text" style="min-width:150px" name="item" required>
@@ -84,16 +84,15 @@
 														<input class="form-control" type="text" style="min-width:150px" name="description">
 													</td>
 													<td>
-														<input class="form-control" style="width:100px" type="text" name="unitcost" id="unitcost" value="" required>
+														<input class="form-control" style="width:100px" type="text" name="unitcost" required>
 													</td>
 													<td>
-														<input class="form-control" style="width:80px" type="int" name="qty" value="" id="qty">
+														<input class="form-control" style="width:80px" type="int" name="qty">
 													</td>
 													<td>
-                          Ksh.  <b class="amount"></b>
+														<input class="form-control" readonly="" style="width:120px" type="text" name="amount">
 													</td>
 													<!-- <td><a href="javascript:void(0)" class="text-success font-18" title="Add"><i class="fa fa-plus"></i></a></td> -->
-                          <!-- <td><a href="javascript:void(0);" class="remove_button" title="Remove"><i class="small material-icons">clear</i></a></td> -->
 												</tr>
 
 												</tbody>
@@ -136,37 +135,3 @@
         <?php
           include('footer.php');
         ?>
-
-
-        <script type="text/javascript">
-        $(document).ready(function(){
-        var maxField = 150; //Input fields increment limitation
-        var addButton = $('.add_button'); //Add button selector
-        var wrapper = $('.field_wrapper'); //Input field wrapper
-        var fieldHTML = '<tr><td><input class="form-control" type="text" style="min-width:150px" name="item" required></td><td><input class="form-control" type="text" style="min-width:150px" name="description"></td><td><input class="form-control" style="width:100px" type="text" name="unitcost" id="unitcost" required></td><td><input class="form-control" style="width:80px" type="int" name="qty" id="qty"></td><td>Ksh.  <b class="amount"></b></td><td><a href="javascript:void(0);" class="remove_button" title="Remove"><i class="small material-icons">clear</i></a></td></tr>'; //New input field html
-        var x = 1; //Initial field counter is 1
-        //Once add button is clicked
-        $(addButton).click(function(){
-        //Check maximum number of input fields
-        if(x < maxField){
-            x++; //Increment field counter
-            $(wrapper).append(fieldHTML); //Add field html
-        }
-        });
-
-        //Once remove button is clicked
-        $(wrapper).on('click', '.remove_button', function(e){
-        e.preventDefault();
-        $(this).closest('tr').remove(); //Remove field html
-        x--; //Decrement field counter
-        });
-
-        //calc Amount
-        $("#qty").on('keyup',function(e){
-          e.preventDefault();
-        var totalcost= $("#unitcost").val() * $(this).val()
-        $(".amount").html(totalcost);
-      })
-
-        });
-        </script>

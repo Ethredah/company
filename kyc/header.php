@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
-        <title>Admin - HRMS</title>
+        <title>Admin - KYC</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
@@ -39,7 +39,7 @@
 					</a>
                 </div>
                 <div class="page-title-box pull-left">
-					<h3><b>Poraeh Investments | Human Resource</b> </h3>
+					<h3><b>Poraeh Investments | Know Your Customer</b> </h3>
                 </div>
 				<a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
 				<ul class="nav navbar-nav navbar-right user-menu pull-right">
@@ -160,35 +160,24 @@
 							<li class="active">
 								<a href="index.php">Dashboard</a>
 							</li>
-							<li class="submenu">
-								<a href="#" class="noti-dot"><span> Employees</span> <span class="menu-arrow"></span></a>
-								<ul class="list-unstyled" style="display: none;">
-									<li><a href="employees.php">All Employees</a></li>
-								  <li><a href="leaves.php"><span>Leave Requests</span> <span class="badge bg-primary pull-right">1</span></a></li>
-								</ul>
-							</li>
+
 
 
 							<li>
-								<a href="sales.php">Sales</a>
+								<a href="applications.php">Applications</a>
 							</li>
 
 							<li class="submenu">
-								<a href="#"><span> Payroll </span> <span class="menu-arrow"></span></a>
+								<a href="#"><span> Reports </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
-									<li><a href="salary.php"> Employee Salary </a></li>
-                  <li><a href="salary.php"> Bonuses </a></li>
-                  <li><a href="salary.php"> Commissions </a></li>
+									<li><a href="salary-reports.html"> Approved</a></li>
+                  <li><a href="salary.php"> Rejected </a></li>
+                  <li><a href="salary.php"> Totals </a></li>
 								</ul>
 							</li>
 
-              <li>
-								<a href="clients.php">Clients</a>
-							</li>
 
-              <li>
-								<a href="projects.php">Projects</a>
-							</li>
+
 
               <li>
 								<a href="events.php">Events</a>
@@ -197,21 +186,12 @@
               <!-- <li>
                 <a href="tickets.php">Tickets</a>
               </li> -->
-              <li class="submenu">
-								<a href="#"><span> Reports </span> <span class="menu-arrow"></span></a>
-								<ul class="list-unstyled" style="display: none;">
-									<li><a href="salary-reports.html"> Payroll </a></li>
-                  <li><a href="#">Sales </a></li>
-                  <li><a href="#">Employees </a></li>
-								</ul>
-							</li>
+
 
 							<li>
 								<a href="tasks.php">Tasks</a>
 							</li>
-              <li>
-								<a href="invoices.php">Invoices</a>
-							</li>
+              
               <hr>
               <li>
 								<a href="logout.php">Logout</a>

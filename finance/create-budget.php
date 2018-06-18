@@ -41,7 +41,7 @@
                           <div>
 												<tr>
 													<td>
-														<input class="form-control" type="text" style="min-width:150px" name="item" required id="p_scnt">
+														<input class="form-control" type="text" style="min-width:150px" name="item" required>
 													</td>
 													<td>
 														<input class="form-control" type="text" style="min-width:150px" name="description">

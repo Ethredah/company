@@ -16,7 +16,7 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-cubes" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
-									<h3>40,000</h3>
+									<h3 class="count">400</h3>
 									<span>Transactions</span>
 								</div>
 							</div>
@@ -25,7 +25,7 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-usd" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
-									<h3>200,045</h3>
+									<h3 class="count">2045</h3>
 									<span>Users</span>
 								</div>
 							</div>
@@ -34,7 +34,7 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-diamond"></i></span>
 								<div class="dash-widget-info">
-									<h3>356</h3>
+									<h3 class="count">356</h3>
 									<span>Loans</span>
 								</div>
 							</div>
@@ -43,7 +43,7 @@
 							<div class="dash-widget clearfix card-box">
 								<span class="dash-widget-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
 								<div class="dash-widget-info">
-									<h3>$27,000</h3>
+									$<h3 class="count">2700</h3>
 									<span>Profit</span>
 								</div>
 							</div>
@@ -53,14 +53,15 @@
 
 
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-7">
 							<div class="panel panel-table">
 								<div class="panel-heading">
 									<h3 class="panel-title">Unpaid Invoices</h3>
 								</div>
+                <br>
 								<div class="panel-body">
 									<div class="table-responsive">
-										<table class="table table-striped custom-table m-b-0">
+										<table class="table table-striped custom-table m-b-0" id="searchtable">
 											<thead>
 												<tr>
 													<th>Invoice ID</th>
@@ -114,7 +115,7 @@
 							</div>
 						</div>
 
-            <div class="col-md-6">
+            <div class="col-md-5">
 							<div class="panel panel-table">
 								<div class="panel-heading">
 									<h3 class="panel-title">Summary</h3>

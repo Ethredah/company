@@ -35,6 +35,7 @@
 <script type="text/javascript" src="../assets/js/bootstrap-datetimepicker.min.js"></script>
 
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 <script>
 $(document).ready( function () {

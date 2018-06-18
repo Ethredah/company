@@ -6,25 +6,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
-        <title>Admin - HRMS</title>
+        <title>Admin - ICT</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="../assets/plugins/morris/morris.css">
 
     <link rel="stylesheet" type="text/css" href="../assets/css/dataTables.bootstrap.min.css">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="../assets/css/fullcalendar.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/select2.min.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/print.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-datetimepicker.min.css">
 
         <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
+			<script src="../assets/js/html5shiv.min.js"></script>
+			<script src="../assets/js/respond.min.js"></script>
 		<![endif]-->
     </head>
     <body>
@@ -39,7 +39,7 @@
 					</a>
                 </div>
                 <div class="page-title-box pull-left">
-					<h3><b>Poraeh Investments | Human Resource</b> </h3>
+					<h3><b>Poraeh Investments | ICT Department</b> </h3>
                 </div>
 				<a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
 				<ul class="nav navbar-nav navbar-right user-menu pull-right">
@@ -116,25 +116,25 @@
 						</div>
 					</li>
 
-					<li class="dropdown">
+          <li class="dropdown">
 
 
-						<a href="profile.php" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin">
+            <a href="profile.php" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin">
 
-							<span class="user-img"><img class="img-circle" src="../assets/img/user.jpg" width="40" alt="Admin">
-							<span class="status online"></span></span>
-							<span>
-                Loraine Njambi
+              <span class="user-img"><img class="img-circle" src="../assets/img/user.jpg" width="40" alt="">
+              <span class="status online"></span></span>
+              <span>
+              Jade Miles
               </span>
-							<i class="caret"></i>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="profile.php">My Profile</a></li>
-							<li><a href="edit-profile.php">Edit Profile</a></li>
-							<li><a href="settings.php">Settings</a></li>
-							<li><a href="logout.php">Logout</a></li>
-						</ul>
-					</li>
+              <i class="caret"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="profile.php">My Profile</a></li>
+              <li><a href="edit-profile.php">Edit Profile</a></li>
+              <li><a href="settings.php">Settings</a></li>
+              <li><a href="logout.php">Logout</a></li>
+            </ul>
+          </li>
 				</ul>
 				<div class="dropdown mobile-user-menu pull-right">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
@@ -145,7 +145,6 @@
 						<li><a href="logout.php">Logout</a></li>
 					</ul>
 				</div>
-
 
       </div>
 
@@ -160,58 +159,41 @@
 							<li class="active">
 								<a href="index.php">Dashboard</a>
 							</li>
-							<li class="submenu">
-								<a href="#" class="noti-dot"><span> Employees</span> <span class="menu-arrow"></span></a>
-								<ul class="list-unstyled" style="display: none;">
-									<li><a href="employees.php">All Employees</a></li>
-								  <li><a href="leaves.php"><span>Leave Requests</span> <span class="badge bg-primary pull-right">1</span></a></li>
-								</ul>
-							</li>
 
-
-							<li>
-								<a href="sales.php">Sales</a>
-							</li>
 
 							<li class="submenu">
 								<a href="#"><span> Payroll </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
-									<li><a href="salary.php"> Employee Salary </a></li>
-                  <li><a href="salary.php"> Bonuses </a></li>
-                  <li><a href="salary.php"> Commissions </a></li>
+									<li><a href="salary.php"> My Salary </a></li>
+                  <li><a href="bonuses.php"> Bonuses </a></li>
+                  <li><a href="commission.php"> Commissions </a></li>
 								</ul>
 							</li>
 
               <li>
-								<a href="clients.php">Clients</a>
-							</li>
+                <a href="tickets.php">Tickets</a>
+              </li>
 
-              <li>
-								<a href="projects.php">Projects</a>
-							</li>
-
-              <li>
+							<li>
 								<a href="events.php">Events</a>
 							</li>
 
-              <!-- <li>
-                <a href="tickets.php">Tickets</a>
-              </li> -->
-              <li class="submenu">
-								<a href="#"><span> Reports </span> <span class="menu-arrow"></span></a>
-								<ul class="list-unstyled" style="display: none;">
-									<li><a href="salary-reports.html"> Payroll </a></li>
-                  <li><a href="#">Sales </a></li>
-                  <li><a href="#">Employees </a></li>
-								</ul>
+              <li>
+								<a href="request-orders.php">Request Orders</a>
+							</li>
+
+              <li>
+                <a href="#" data-toggle="modal" data-target="#petty_cash">Request Petty Cash</a>
+              </li>
+
+              <li>
+								<a href="invoices.php">Invoices</a>
 							</li>
 
 							<li>
 								<a href="tasks.php">Tasks</a>
 							</li>
-              <li>
-								<a href="invoices.php">Invoices</a>
-							</li>
+
               <hr>
               <li>
 								<a href="logout.php">Logout</a>
@@ -223,3 +205,35 @@
         </div>
 
             <!----END OF SIDEBAR AREA--->
+
+            <!--- REQUEST PETTY CASH MODAL---->
+
+                  <div id="petty_cash" class="modal custom-modal fade" role="dialog">
+                    <div class="modal-dialog">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <div class="modal-content modal-md">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Request For Petty Cash</h4>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#" method="post">
+                            <div class="form-group">
+                              <label>Amount <span class="text-danger">*</span></label>
+                              <input class="form-control" required="" name="cash" type="text">
+                            </div>
+
+                            <div class="form-group">
+                              <label>Reason <span class="text-danger">*</span></label>
+                              <textarea class="form-control" name="reason"></textarea>
+                            </div>
+
+                            <div class="m-t-20 text-center">
+                              <button class="btn btn-primary" type="submit" name="request">Request</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <!--- REQUEST PETTY CASH MODAL---->

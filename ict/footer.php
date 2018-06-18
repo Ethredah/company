@@ -17,31 +17,29 @@
 <script type="text/javascript" src="../assets/js/select2.min.js"></script>
 <script type="text/javascript" src="../assets/js/app.js"></script>
 
+
+<script type="text/javascript" src="../assets/js/fullcalendar.min.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.fullcalendar.js"></script>
+
 <script type="text/javascript" src="../assets/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="../assets/js/dataTables.bootstrap.min.js"></script>
-
-<script type="text/javascript" src="../assets/js/task.js"></script>
 
 <script type="text/javascript" src="../assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="../assets/js/fullcalendar.min.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.fullcalendar.js"></script>
 
+<script type="text/javascript" src="../assets/js/task.js"></script>
+
+
 <script type="text/javascript" src="../assets/js/select2.min.js"></script>
 <script type="text/javascript" src="../assets/js/moment.min.js"></script>
-<script type="text/javascript" src="../assets/js/print.min.js"></script>
-
-<script type="text/javascript" src="../assets/js/countid.js"></script>
-
 <script type="text/javascript" src="../assets/js/bootstrap-datetimepicker.min.js"></script>
-
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
 
 <script>
 $(document).ready( function () {
     $('#searchtable').DataTable();
 } );
 </script>
-<script>$('.count').countid();</script>
 
 <script>
 var data = [

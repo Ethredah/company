@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -198,13 +199,13 @@
                 <a href="tickets.php">Tickets</a>
               </li> -->
               <li class="submenu">
-								<a href="#"><span> Reports </span> <span class="menu-arrow"></span></a>
-								<ul class="list-unstyled" style="display: none;">
-									<li><a href="salary-reports.html"> Payroll </a></li>
+                <a href="#"><span> Reports </span> <span class="menu-arrow"></span></a>
+                <ul class="list-unstyled" style="display: none;">
+                  <li><a href="salary-reports.html"> Payroll </a></li>
                   <li><a href="#">Sales </a></li>
                   <li><a href="#">Employees </a></li>
-								</ul>
-							</li>
+                </ul>
+              </li>
 
 							<li>
 								<a href="tasks.php">Tasks</a>
@@ -223,3 +224,150 @@
         </div>
 
             <!----END OF SIDEBAR AREA--->
+
+
+            <div class="page-wrapper">
+          <div class="content container-fluid">
+
+					<div class="row">
+						<div class="col-sm-8">
+							<h4 class="page-title">PAYROLL REPORTS</h4>
+						</div>
+					</div>
+
+          <div class="row" >
+
+            <div class="col-md-6 col-sm-6 col-lg-4">
+              <div class="dash-widget clearfix card-box">
+                <span class="dash-widget-icon"><img src="../assets/img/nhif.jpg" class="img-responsive img-circle"></span>
+                <div class="dash-widget-info" style="color:red;">
+                  $<h3 class='count'>2250</h3>
+                  <span>NHIF Deductions</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-lg-4">
+              <div class="dash-widget clearfix card-box">
+                <span class="dash-widget-icon"><img src="../assets/img/nssf.png" class="img-responsive img-circle"></span>
+                <div class="dash-widget-info" style="color:green;">
+                  $<h3 class='count'>1200</h3>
+                  <span>NSSF Deductions</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-4">
+              <div class="dash-widget clearfix card-box">
+                <span class="dash-widget-icon"><img src="../assets/img/kra.png" class="img-responsive img-circle"></span>
+                <div class="dash-widget-info" style="color:blue;">
+                  $<h3 class='count'>1850</h3>
+                  <span>PAYE Tax</span>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <div class="row">
+
+            <!-- <div class="card-box">
+              <div id="area-chart" ></div>
+            </div> -->
+            <!-- <div id="chartContainer" style="height: 300px; width: 100%;"></div> -->
+            <div id="barchart_material"></div>
+
+
+          </div>
+
+
+          </div>
+
+
+				</div>
+
+
+
+
+
+
+        </div>
+        </div>
+
+        <div class="sidebar-overlay" data-reff="#sidebar"></div>
+
+        <script type="text/javascript" src="../assets/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../assets/js/jquery.slimscroll.js"></script>
+        <script type="text/javascript" src="../assets/plugins/morris/morris.min.js"></script>
+        <script type="text/javascript" src="../assets/plugins/raphael/raphael-min.js"></script>
+        <script type="text/javascript" src="../assets/js/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="../assets/js/moment.min.js"></script>
+        <script type="text/javascript" src="../assets/js/select2.min.js"></script>
+        <script type="text/javascript" src="../assets/js/app.js"></script>
+
+        <script type="text/javascript" src="../assets/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="../assets/js/dataTables.bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="../assets/js/task.js"></script>
+
+        <script type="text/javascript" src="../assets/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="../assets/js/fullcalendar.min.js"></script>
+        <script type="text/javascript" src="../assets/js/jquery.fullcalendar.js"></script>
+
+        <script type="text/javascript" src="../assets/js/select2.min.js"></script>
+        <script type="text/javascript" src="../assets/js/moment.min.js"></script>
+        <script type="text/javascript" src="../assets/js/print.min.js"></script>
+
+        <script type="text/javascript" src="../assets/js/countid.js"></script>
+
+        <script type="text/javascript" src="../assets/js/bootstrap-datetimepicker.min.js"></script>
+
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <script>
+        $(document).ready( function () {
+            $('#searchtable').DataTable();
+        } );
+        </script>
+        <script>$('.count').countid();</script>
+
+        <!-- CHART -->
+        <script type="text/javascript">
+     google.charts.load('current', {'packages':['bar']});
+     google.charts.setOnLoadCallback(drawChart);
+
+     function drawChart() {
+       var data = google.visualization.arrayToDataTable([
+         ['Year', 'NHIF', 'NSSF', 'Tax'],
+         ['2014', 1000, 400, 200],
+         ['2015', 1170, 460, 250],
+         ['2016', 660, 1120, 300],
+         ['2017', 1030, 540, 350]
+       ]);
+
+       var options = {
+         chart: {
+           title: 'Yearly Deductions',
+           subtitle: 'NHIF, NSSF, and PAYE Tax: 2014-2017',
+         },
+         bars: 'vertical' // Required for Material Bar Charts.
+       };
+
+       var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+       chart.draw(data, google.charts.Bar.convertOptions(options));
+     }
+   </script>
+
+   <!-- CHART -->
+
+
+
+        </body>
+        </html>

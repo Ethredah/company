@@ -24,10 +24,25 @@
 <script type="text/javascript" src="../assets/js/fullcalendar.min.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.fullcalendar.js"></script>
 
+<script type="text/javascript" src="../assets/js/countid.js"></script>
+
 
 <script type="text/javascript" src="../assets/js/select2.min.js"></script>
 <script type="text/javascript" src="../assets/js/moment.min.js"></script>
 
+<!---SERCH DATATABLE--->
+<script>
+$(document).ready( function () {
+    $('#searchtable').DataTable();
+} );
+</script>
+<!---SERCH DATATABLE--->
+
+
+<!---ADD COUNT--->
+<script>$('.count').countid();</script>
+<script>
+<!---ADD COUNT--->
 
 
 <script>

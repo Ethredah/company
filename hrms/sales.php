@@ -12,6 +12,44 @@
 							<h4 class="page-title">Sales Progress</h4>
 						</div>
 					</div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-lg-3">
+              <div class="dash-widget clearfix card-box">
+                <span class="dash-widget-icon"><i class="material-icons">people</i></span>
+                <div class="dash-widget-info">
+                  <h3 class='count'>300</h3>
+                  <span>Sales Agents</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+              <div class="dash-widget clearfix card-box">
+                <span class="dash-widget-icon"><i class="material-icons">business_center</i></span>
+                <div class="dash-widget-info">
+                  <h3 class='count'>40504</h3>
+                  <span>Sales</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+              <div class="dash-widget clearfix card-box">
+                <span class="dash-widget-icon"><i class="material-icons">assignment</i></span>
+                <div class="dash-widget-info">
+                  <h3 class='count'>200</h3>
+                  <span>Completed Sales</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3">
+              <div class="dash-widget clearfix card-box">
+                <span class="dash-widget-icon"><i class="material-icons">money</i></span>
+                <div class="dash-widget-info">
+                  <h3 class='count'>1800</h3>
+                  <span>Turnover</span>
+                </div>
+              </div>
+            </div>
+          </div>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="table-responsive">

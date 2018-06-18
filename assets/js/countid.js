@@ -83,7 +83,7 @@
 
 			start : 0,
 			end : 0,
-			speed : 5,
+			speed : 500,
 			tick : 10,
 
 			clock: false,

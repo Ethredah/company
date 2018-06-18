@@ -10,8 +10,8 @@
                 <div class="content container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-lg-3">
-							<div class="dash-widget clearfix card-box">
-								<span class="dash-widget-icon"><i class="material-icons">assessment</i></span>
+							<div class="dash-widget clearfix card-box" >
+								<span class="dash-widget-icon" style="color:red;"><i class="material-icons">assessment</i></span>
 								<div class="dash-widget-info">
 									<h3 class='count'>4</h3>
 									<span>Activities</span>
@@ -129,16 +129,7 @@
 
 					</div>
 					<div class="row">
-            <!-- <div class="col-sm-6 text-center">
-              <div class="card-box">
-                <div id="line-chart"></div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="card-box">
-                <div id="pie-chart" ></div>
-              </div>
-            </div> -->
+
 
 					</div>
 
