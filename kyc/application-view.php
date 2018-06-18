@@ -70,7 +70,7 @@
 																			<a href="#" class="label label-warning dropdown-toggle" data-toggle="dropdown">New <span class="caret"></span></a>
 																			<ul class="dropdown-menu dropdown-menu-right">
 																				<li><a href="#">Approved</a></li>
-																				<li><a href="#">Rejected</a></li>
+																				<li><a href="#" title="Reject" data-toggle="modal" data-target="#rejected">Rejected</a></li>
 																				<li><a href="#">Pending</a></li>
 																			</ul>
 																		</div>
@@ -158,7 +158,7 @@
 												<a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
 												<ul class="dropdown-menu">
 													<li><a href="#">Approve Application</a></li>
-                          <li><a href="#" title="Edit" data-toggle="modal" data-target="#rejected">Reject Application</a></li>
+                          <li><a href="#" title="Reject" data-toggle="modal" data-target="#rejected">Reject Application</a></li>
 													<li><a href="#" title="Delete" data-toggle="modal" data-target="#delete_ticket">Delete Application</a></li>
 												</ul>
 											</li>
@@ -262,9 +262,9 @@
 							<form>
 								<div class="modal-body card-box">
 									<p>Please give your comments for rejecting this application:</p>
-                  <textarea type="form-control" ></textarea>
+                  <textarea type="form-control" placeholder="Type here..." style="width:100%;" required></textarea>
 									<div class="m-t-20"> <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
-										<button type="submit" class="btn btn-danger">Delete</button>
+										<button type="submit" class="btn btn-danger">Reject</button>
 									</div>
 								</div>
 							</form>
